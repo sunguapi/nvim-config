@@ -1,0 +1,16 @@
+{
+  "doc-header": {
+    "prefix": ["doc-header"],
+    "body": [
+      "/**",
+      "* @file ${TM_FILENAME}",
+      "* @author ${1}",
+      "* @details ${2}",
+      "* @date ${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE}",
+      "* @commit history:",
+      "* \t v${3}: ${4}",
+      "*/${0}"
+    ],
+    "description": "create a doc header"
+  }
+}
